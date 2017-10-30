@@ -1,0 +1,18 @@
+//gradle.properties参照
+def repo = new File(rootDir, mavenPublishDir)
+def groupId = mavenGroupId
+def libName = project.name
+def versionName = android.defaultConfig.versionName
+
+// maven push　コマンド
+apply plugin: 'maven'
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository url: "file://${repo.absolutePath}"
+            pom.version =  "${versionName}"// version
+            pom.groupId = "${groupId}"    // グループ名
+            pom.artifactId = "${libName}" // ライブラリ名
+        }
+    }
+}
