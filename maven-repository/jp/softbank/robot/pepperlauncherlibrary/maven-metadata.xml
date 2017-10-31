@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>jp.softbank.robot</groupId>
+  <artifactId>pepperlauncherlibrary</artifactId>
+  <versioning>
+    <release>0.1.6</release>
+    <versions>
+      <version>0.1.6</version>
+    </versions>
+    <lastUpdated>20171031032633</lastUpdated>
+  </versioning>
+</metadata>
