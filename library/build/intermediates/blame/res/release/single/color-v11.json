@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/pc_0139/Git/android-maven-repository-test/library/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/pc_0139/.android/build-cache/6862d1f7f285a191c68943f1acd62ee094564820/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/pc_0139/Git/android-maven-repository-test/library/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/pc_0139/.android/build-cache/6862d1f7f285a191c68943f1acd62ee094564820/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

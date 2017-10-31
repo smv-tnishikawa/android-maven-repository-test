@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/pc_0139/Git/android-maven-repository-test/library/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher_round.png",
+        "source": "/Users/pc_0139/Git/android-maven-repository-test/library/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/pc_0139/Git/android-maven-repository-test/library/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher.png",
+        "source": "/Users/pc_0139/Git/android-maven-repository-test/library/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    }
+]
