@@ -9,6 +9,8 @@
 * 実行するとmaven-repogitoryディレクトリが作成され、必要なファイル一式が作成される
 * 修正したソースとともにmaven-repogitoryディレクトリ内の変更もgit pushしておく
 * developに変更が反映されるとライブラリが更新される
+* ライブラリ生成時の設定はmavenupload.gradleに記述されている
+* ライブラリを使用する際のバージョン番号については、pepperlauncherlibraryのbuild.gradleのdefaultConfigのversionNameを参照するようにしている
 
 ### ライブラリ使用方法 ###
 * ssh経由でgithubのap-homeをcloneできる状態に端末を設定しておく
