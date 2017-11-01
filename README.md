@@ -10,7 +10,7 @@
 * 修正したソースとともにmaven-repogitoryディレクトリ内の変更もgit pushしておく
 * developに変更が反映されるとライブラリが更新される
 
-### ライブラリ使用方法 ###
+### ライブラリ使用方法 ###
 * ssh経由でgithubのap-homeをcloneできる状態に端末を設定しておく
 
 * プロジェクトのbuild.gradleに下記のようにgradleのライブラリを追加
@@ -28,7 +28,7 @@ buildscript {
 }
 ```
 
-* app/build.gradleに下記のようにrepositoryを読み込むコードを追加
+* app/build.gradleに下記のようにrepositoryを読み込むコードを追加
 ```groovy:app/build.gradle
 android {
     ・・・・
@@ -56,10 +56,10 @@ project.repositories.maven {
 
 dependencies {
     ・・・・
-}
+}
 ```
 
-* app/build.gradleに他のライブラリと同様に下記のようにpepperlauncherlibraryを追加
+* app/build.gradleに他のライブラリと同様に下記のようにpepperlauncherlibraryを追加
 ```groovy:app/build.gradle
 dependencies {
     ・・・・
@@ -68,5 +68,5 @@ dependencies {
 }
 ```
 
-* Gradleをsyncすれば完了
+* Gradleをsyncすれば完了
 * プロジェクトのルートに.gitReposが追加されているので、ソース管理で除外するなどしてください
