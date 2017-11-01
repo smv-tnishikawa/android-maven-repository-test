@@ -9,7 +9,7 @@
 * 修正したソースとともにmaven-repogitoryディレクトリ内の変更もgit pushしておく
 * developに変更が反映されるとライブラリが更新される
 
-###### リポジトリのデータ生成について ######
+##### リポジトリのデータ生成について ######
 * ライブラリ生成時の設定はmavenupload.gradleに記述されている
 * ライブラリを使用する際のバージョン番号については、pepperlauncherlibraryのbuild.gradleのdefaultConfigのversionNameを参照するようにしている
 
