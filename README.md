@@ -12,7 +12,6 @@
 
 ### ライブラリ使用方法 ###
 * ssh経由でgithubのap-homeをcloneできる状態に端末を設定しておく
-
 * プロジェクトのbuild.gradleに下記のようにgradleのライブラリを追加
 
 ```groovy:app/build.gradle
@@ -67,6 +66,6 @@ dependencies {
     compile 'jp.softbank.robot:pepperlauncherlibrary:0.1.6'
 }
 ```
-
+
 * Gradleをsyncすれば完了
 * プロジェクトのルートに.gitReposが追加されているので、ソース管理で除外するなどしてください
