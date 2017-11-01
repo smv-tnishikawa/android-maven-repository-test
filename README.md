@@ -10,8 +10,8 @@
 * developに変更が反映されるとライブラリが更新される
 
 ##### リポジトリのデータ生成について ######
-* ライブラリ生成時の設定はmavenupload.gradleに記述されている
-* ライブラリを使用する際のバージョン番号については、pepperlauncherlibraryのbuild.gradleのdefaultConfigのversionNameを参照するようにしている
+* リポジトリのデータ生成の設定はmavenupload.gradleに記述されている
+* リポジトリを使用する際のバージョン番号については、pepperlauncherlibraryのbuild.gradleのdefaultConfigのversionNameを参照するようにしている
 
 ### ライブラリ使用方法 ###
 * ssh経由でgithubのap-homeをcloneできる状態に端末を設定しておく
