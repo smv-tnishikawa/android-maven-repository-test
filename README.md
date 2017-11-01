@@ -3,12 +3,13 @@
 ## pepperlauncherlibrary ##
 
 ### ライブラリ作成方法 ###
-
 * Android StudioのGradleのTasksのuploadにuploadArchivesコマンドが追加されてる
 * pepperlauncherlibraryのuploadArchivesを実行する
 * 実行するとmaven-repogitoryディレクトリが作成され、必要なファイル一式が作成される
 * 修正したソースとともにmaven-repogitoryディレクトリ内の変更もgit pushしておく
 * developに変更が反映されるとライブラリが更新される
+
+###### リポジトリのデータ生成について ######
 * ライブラリ生成時の設定はmavenupload.gradleに記述されている
 * ライブラリを使用する際のバージョン番号については、pepperlauncherlibraryのbuild.gradleのdefaultConfigのversionNameを参照するようにしている
 
